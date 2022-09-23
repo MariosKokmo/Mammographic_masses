@@ -25,3 +25,13 @@ sensitivities and associated specificities can be calculated. These can be an
 indication of how well a CAD system performs compared to the radiologists.
 
 Class Distribution: benign: 516; malignant: 445
+
+
+6 Attributes in total (1 goal field, 1 non-predictive, 4 predictive attributes)
+
+1. BI-RADS assessment: 1 to 5 (ordinal, non-predictive!)  
+2. Age: patient's age in years (integer)
+3. Shape: mass shape: round=1 oval=2 lobular=3 irregular=4 (nominal)
+4. Margin: mass margin: circumscribed=1 microlobulated=2 obscured=3 ill-defined=4 spiculated=5 (nominal)
+5. Density: mass density high=1 iso=2 low=3 fat-containing=4 (ordinal)
+6. Severity: benign=0 or malignant=1 (binominal, goal field!)
